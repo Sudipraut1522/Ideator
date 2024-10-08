@@ -1,0 +1,11 @@
+default: &default
+  adapter: mysql2
+  encoding: utf8
+  pool: 5
+  username: sudip
+  password: sudip
+  host: localhost
+
+development:
+  <<: *default
+  database: demo
